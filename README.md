@@ -3,4 +3,9 @@ Analyses your Video and gives an interface to chat with. Powers with a RAG based
 
 ## 1. Acquire Data
 donwload the video using download_video.py - downloads 102 videos from youtube
-Transcribe the video using  transcribe_video.py                 
+Transcribe the video using  transcribe_video.py  
+
+## 2. Preprocess Data
+
+Extract the steps of cooking using extract_cooking_steps_images.py
+

@@ -86,5 +86,5 @@ if __name__ == '__main__':
                 PREFIXES.append('downloads/'+video)
     logger.info(f"Number of videos to transcribe: {len(PREFIXES)}")
     # run the main function in parallel
-    # with multiprocessing.Pool(processes=5) as pool:
-    #     pool.map(main, PREFIXES)
+    with multiprocessing.Pool(processes=5) as pool:
+        pool.map(main, PREFIXES)

@@ -1,0 +1,54 @@
+{
+  "reasoning": "The transcription provides a step-by-step guide on how to make black bean soup, including preparation of ingredients, cooking process, and serving suggestions. The steps are extracted based on the sequence of actions described by Jacques Pepin, starting from sorting the beans to serving the soup with various garnishes.",
+  "dish_description": "The dish is a homemade black bean soup, which is a hearty and flavorful dish with Cuban and Puerto Rican influences. It includes black beans, rice, chicken stock, and various seasonings, and is garnished with cilantro, banana, onion, egg, and optional Tabasco and olive oil.",
+  "cooking_steps": [
+    {
+      "step_number": 1,
+      "description": "Sort through the black beans to remove any stones or damaged beans, then rinse them thoroughly under water.",
+      "start_time": 27,
+      "end_time": 58
+    },
+    {
+      "step_number": 2,
+      "description": "In a pot, combine the rinsed black beans with 2 quarts of water, 1 quart of chicken stock, half a cup of rice, half a teaspoon each of cumin and chili powder, and 1 teaspoon of salt. Adjust the seasonings to taste.",
+      "start_time": 60,
+      "end_time": 94
+    },
+    {
+      "step_number": 3,
+      "description": "Bring the mixture to a boil, then cover the pot, reduce the heat to very low, and simmer for an hour and a half to two hours.",
+      "start_time": 102,
+      "end_time": 109
+    },
+    {
+      "step_number": 4,
+      "description": "Add a large bunch of cilantro to the soup, reserving some as a garnish. Optionally, add a can of tomatoes or hot salsa to the soup for additional flavor.",
+      "start_time": 124,
+      "end_time": 145
+    },
+    {
+      "step_number": 5,
+      "description": "Incorporate about 3 cups of leeks, a couple of cups of onions, and 5-6 cloves of garlic into the soup. Continue to cook for another hour, adding more liquid if necessary and seasoning with additional salt.",
+      "start_time": 180,
+      "end_time": 214
+    },
+    {
+      "step_number": 6,
+      "description": "If the soup is too thick after cooking, thin it out with an additional cup to a cup and a half of chicken stock or water.",
+      "start_time": 221,
+      "end_time": 230
+    },
+    {
+      "step_number": 7,
+      "description": "To make the soup creamier, take a couple of cups of the soup and blend it in a food processor or blender, then mix it back into the pot.",
+      "start_time": 235,
+      "end_time": 245
+    },
+    {
+      "step_number": 8,
+      "description": "Serve the soup with various garnishes such as sliced banana, rinsed Vidalia onions, chopped hard-boiled eggs, a few drops of Tabasco, a drizzle of olive oil, and a dash of vinegar. The soup can be served in different styles, such as with a banana for a Cuban touch or with a garnish of eggs as served in Jacques Pepin's New York restaurant.",
+      "start_time": 290,
+      "end_time": 393
+    }
+  ]
+}
