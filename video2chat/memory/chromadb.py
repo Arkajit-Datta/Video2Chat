@@ -1,12 +1,17 @@
+import os
 import uuid
+from dotenv import load_dotenv
 from typing import Any, Optional, Iterable, List
 
 import chromadb
 from chromadb import Settings
+from chromadb.utils import embedding_functions
 
 from video2chat.memory.base import VectorStore
 from video2chat.memory.document import Document
 from video2chat.memory.embedding.base import BaseEmbedding
+
+load_dotenv()
 
 def _build_chroma_client():
     chroma_host_name = "localhost"
@@ -28,7 +33,8 @@ class ChromaDB(VectorStore):
         self.embedding_model = embedding_model
         self.text_field = text_field
         self.namespace = namespace
-
+        self.openai_key = os.getenv("OPENAI_API_KEY")
+        
     @classmethod
     def create_collection(cls, collection_name):
         """Create a Chroma Collection.
@@ -36,7 +42,7 @@ class ChromaDB(VectorStore):
         collection_name: The name of the collection to create.
         """
         chroma_client = _build_chroma_client()
-        return chroma_client.get_or_create_collection(name=collection_name)
+        return chroma_client.get_or_create_collection(name=collection_name, embedding_function=cls.add_embeddings_to_vector_db)
 
     def add_texts(
             self,
@@ -102,8 +108,12 @@ class ChromaDB(VectorStore):
     def get_index_stats(self) -> dict:
         pass
 
-    def add_embeddings_to_vector_db(self, embeddings: dict) -> None:
-        pass
+    def add_embeddings_to_vector_db(self, embedding_func_name: str = "text-embedding-ada-002"):
+        embedding_func = embedding_functions.OpenAIEmbeddingFunction(
+            api_key=self.openai_key,
+            model_name=embedding_func_name,
+        )
+        return embedding_func
 
     def delete_embeddings_from_vector_db(self, ids: List[str]) -> None:
         pass
