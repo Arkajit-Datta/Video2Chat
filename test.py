@@ -4,7 +4,7 @@ import multiprocessing
 from video2chat.process_data.extractors.cooking_video_extractor import CookingVideoExtractor
 
 
-def test_cooking_video_extractor():
+def cooking_video_extractor():
     cooking_video_extractor = CookingVideoExtractor()
     transcripts_list = []
     for transcript in os.listdir('transcripts'):
@@ -17,5 +17,5 @@ def test_cooking_video_extractor():
     print(extracted_data)
     
 if __name__ == "__main__":
-    test_cooking_video_extractor()
+    cooking_video_extractor()
     
