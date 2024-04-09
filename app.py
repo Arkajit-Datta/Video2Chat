@@ -12,15 +12,17 @@ logger = logging.getLogger(__name__)
 app = FastAPI()
 
 class ChatRequest(BaseModel):
-    chat_id: str
     message: str
 
 @app.get("/api/health")
 def health_check():
     return {"status": "ok"}
 
-@app.get("/api/initialize_chat")
-def initialize_chat():
+
+@app.post("/api/chat")
+def chat(request: ChatRequest):
+    message = request.message
+    
     chat_id = str(uuid.uuid4())
     json_file_path = f"chats/{chat_id}.json"
     
@@ -33,17 +35,9 @@ def initialize_chat():
             f
         )
     
-    return {"chat_id": chat_id, "json_file_path": json_file_path}
-
-
-@app.post("/api/chat")
-def chat(request: ChatRequest):
-    chat_id = request.chat_id
-    message = request.message
-    
     html_path = chat_interface(chat_id, message)
     
-    return {"status": "ok", "html": html_path}
+    return {"status": "ok", "cooking_wiki_page": html_path, "chat_id": chat_id, "json_file_path": json_file_path}
 
 
 if __name__ == "__main__":
