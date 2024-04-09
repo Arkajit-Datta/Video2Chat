@@ -29,10 +29,10 @@ db is persistent placed in memory>db>chroma>chroma.sqlite3
 `pip install -r requirements.txt`
 
 - Create a .env with the following keys
-`OPENAI_API_KEY="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"`
-`DEEPGRAM_API_KEY="140b84b1e6520ea889819a76c56c9f8598684ff2"`
-`GOOGLE_CLOUD_API_KEY="AIzaSyA90Jp6T4qGE_x0Y3vhV2Qh9bAgr5P94hc"`
-`ANYSCALE_API_KEY="esecret_cw8hznruv14hu9mu6ixskliacu"`
+`OPENAI_API_KEY=""`
+`DEEPGRAM_API_KEY=""`
+`GOOGLE_CLOUD_API_KEY=""`
+`ANYSCALE_API_KEY=""`
 
 - Running the fastapi server 
 `python app.py` 
