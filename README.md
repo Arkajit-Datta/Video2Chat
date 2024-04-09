@@ -42,7 +42,7 @@ db is persistent placed in memory>db>chroma>chroma.sqlite3
 - According to the user query it finds the relevant dishes stored in the vectordb
     - If there is a match below the threshold 0.15 then we conclude the same dish is stored in the db hence we return 1
     - Else it returns all the dishes getting matches with a threshold of 0.20 and less 
-    - All the dishes with steps are passed to gpt in a prompt to create a custom dish if required
-    - Images are generated using Dalle-3 for each step 
-    - Html file is rendered as a result 
+- All the dishes with steps are passed to gpt in a prompt to create a custom dish if required
+- Images are generated using Dalle-3 for each step 
+- Html file is rendered as a result 
 
