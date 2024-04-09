@@ -49,25 +49,15 @@ class OpenAILLM(BaseLLM):
             str: The response from the model.
         """
         try:
-            if self.is_output_json_obj:
-                response = self.openai_client.chat.completions.create(
-                    model=self.model,
-                    messages=messages,
-                    temperature=self.temperature,
-                    max_tokens=self.max_tokens,
-                    top_p=self.top_p,
-                    response_format={"type": "json_object"}
-                )
-                
-            else:
-                response = self.openai_client.chat.completions.create(
-                    model=self.model,
-                    messages=messages,
-                    temperature=self.temperature,
-                    max_tokens=self.max_tokens,
-                    top_p=self.top_p,
-                    response_format={"type": "json_object"}
-                )
+            response = self.openai_client.chat.completions.create(
+                model=self.model,
+                messages=messages,
+                temperature=self.temperature,
+                max_tokens=self.max_tokens,
+                top_p=self.top_p,
+                response_format={"type": "json_object"}
+            )
+
             return response.choices[0].message.content
         except self.openai_client.error.RateLimitError as rate_limit_error:
             logger.error("OpenAi RateLimitError:", rate_limit_error)

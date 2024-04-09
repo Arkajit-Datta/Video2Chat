@@ -1,1 +1,12 @@
-{"reasoning": "The transcription details a process where various ingredients, primarily leftover pastries and fruit, are combined to create a dessert. The speaker, Jacques Pepin, describes collecting ingredients such as cookies, pastries, and fruit, and then demonstrates how to prepare the fruit and combine all the components before baking. The steps are extracted based on the sequence of actions described and the ingredients mentioned.", "dish_description": "The dish is a baked fruit dessert made with leftover pastries, cookies, and fruit, seasoned with cinnamon and sweetened with sugar and apricot preserve, then baked until creamy and served with an option of sour cream or creme fraiche on top.", "cooking_steps": [{"step_number": 8, "description": "Transfer the mixture into a gratin dish and bake in a preheated oven at 400 degrees Fahrenheit for about 45 minutes until the dessert is creamy and cooked through. Serve with a dollop of sour cream or creme fraiche if desired.", "start_time": 227, "end_time": 240}]}
+{
+    "reasoning": "The transcription details a process where various ingredients, primarily leftover pastries and fruit, are combined to create a dessert. The speaker, Jacques Pepin, describes collecting ingredients such as cookies, pastries, and fruit, and then demonstrates how to prepare the fruit and combine all the components before baking. The steps are extracted based on the sequence of actions described and the ingredients mentioned.",
+    "dish_description": "The dish is a baked fruit dessert made with leftover pastries, cookies, and fruit, seasoned with cinnamon and sweetened with sugar and apricot preserve, then baked until creamy and served with an option of sour cream or creme fraiche on top.",
+    "cooking_steps": [
+        {
+            "step_number": 8,
+            "description": "Transfer the mixture into a gratin dish and bake in a preheated oven at 400 degrees Fahrenheit for about 45 minutes until the dessert is creamy and cooked through. Serve with a dollop of sour cream or creme fraiche if desired.",
+            "start_time": 227,
+            "end_time": 240
+        }
+    ]
+}

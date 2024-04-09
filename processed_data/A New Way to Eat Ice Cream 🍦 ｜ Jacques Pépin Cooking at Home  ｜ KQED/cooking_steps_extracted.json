@@ -1,1 +1,54 @@
-{"reasoning": "The transcription describes a method for storing and serving ice cream in a way that keeps it fresh and avoids waste. The speaker, Jacques Pepin, explains how to portion the ice cream, store it in a freezer bag, and serve it with a sauce and garnishes for an elegant dessert.", "dish_description": "The dish is a portioned ice cream dessert served with peach jam, nuts, and a sprig of mint, presented in a way that mimics a high-end restaurant dessert.", "cooking_steps": [{"step_number": 1, "description": "Remove a portion of ice cream from its container and cut the side of the container to easily unmold the ice cream.", "start_time": 19, "end_time": 26}, {"step_number": 2, "description": "Cut the ice cream into portions, in this case, four equal parts.", "start_time": 33, "end_time": 37}, {"step_number": 3, "description": "Place the portioned ice cream into a freezer bag.", "start_time": 44, "end_time": 48}, {"step_number": 4, "description": "Mold the ice cream inside the bag into a nice ball shape.", "start_time": 51, "end_time": 56}, {"step_number": 5, "description": "Store the bagged ice cream portions in the freezer to keep them fresh.", "start_time": 66, "end_time": 69}, {"step_number": 6, "description": "Before serving, take the ice cream out of the freezer and leave it in the refrigerator for 15-20 minutes to soften slightly.", "start_time": 69, "end_time": 80}, {"step_number": 7, "description": "Serve the ice cream with a topping of peach jam.", "start_time": 97, "end_time": 100}, {"step_number": 8, "description": "Garnish the ice cream with nuts, such as pumpkin seeds, and a sprig of mint for an elegant presentation.", "start_time": 108, "end_time": 122}]}
+{
+    "reasoning": "The transcription describes a method for storing and serving ice cream in a way that keeps it fresh and avoids waste. The speaker, Jacques Pepin, explains how to portion the ice cream, store it in a freezer bag, and serve it with a sauce and garnishes for an elegant dessert.",
+    "dish_description": "The dish is a portioned ice cream dessert served with peach jam, nuts, and a sprig of mint, presented in a way that mimics a high-end restaurant dessert.",
+    "cooking_steps": [
+        {
+            "step_number": 1,
+            "description": "Remove a portion of ice cream from its container and cut the side of the container to easily unmold the ice cream.",
+            "start_time": 19,
+            "end_time": 26
+        },
+        {
+            "step_number": 2,
+            "description": "Cut the ice cream into portions, in this case, four equal parts.",
+            "start_time": 33,
+            "end_time": 37
+        },
+        {
+            "step_number": 3,
+            "description": "Place the portioned ice cream into a freezer bag.",
+            "start_time": 44,
+            "end_time": 48
+        },
+        {
+            "step_number": 4,
+            "description": "Mold the ice cream inside the bag into a nice ball shape.",
+            "start_time": 51,
+            "end_time": 56
+        },
+        {
+            "step_number": 5,
+            "description": "Store the bagged ice cream portions in the freezer to keep them fresh.",
+            "start_time": 66,
+            "end_time": 69
+        },
+        {
+            "step_number": 6,
+            "description": "Before serving, take the ice cream out of the freezer and leave it in the refrigerator for 15-20 minutes to soften slightly.",
+            "start_time": 69,
+            "end_time": 80
+        },
+        {
+            "step_number": 7,
+            "description": "Serve the ice cream with a topping of peach jam.",
+            "start_time": 97,
+            "end_time": 100
+        },
+        {
+            "step_number": 8,
+            "description": "Garnish the ice cream with nuts, such as pumpkin seeds, and a sprig of mint for an elegant presentation.",
+            "start_time": 108,
+            "end_time": 122
+        }
+    ]
+}

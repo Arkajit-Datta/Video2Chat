@@ -48,6 +48,7 @@ kubernetes==29.0.0
 langchain==0.1.14
 langchain-community==0.0.31
 langchain-core==0.1.40
+langchain-openai==0.1.1
 langchain-text-splitters==0.0.1
 langsmith==0.1.40
 markdown-it-py==3.0.0
@@ -93,7 +94,9 @@ PyPika==0.48.9
 pyproject_hooks==1.0.0
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
+python-multipart==0.0.9
 PyYAML==6.0.1
+regex==2023.12.25
 requests==2.31.0
 requests-oauthlib==2.0.0
 rich==13.7.1
@@ -106,6 +109,7 @@ SQLAlchemy==2.0.29
 starlette==0.37.2
 sympy==1.12
 tenacity==8.2.3
+tiktoken==0.6.0
 tokenizers==0.15.2
 tqdm==4.66.2
 typer==0.12.1
